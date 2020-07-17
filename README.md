@@ -6,9 +6,13 @@ You just have to make (GET,POST,PUT)requests via Postman or some other app.You c
 End points include
 
 Get request to  /customers returns all customers int the database.
+
 Post request to /customers ,in body name,email,balance  inserts customer into the database.
-Get request to /customers/:id ,return the user with that id
+
+Get request to /customers/:id ,return the user with that id.
+
 Put request to /customers/id ,in body write updated data,updates customer information.
+
 Del request to /customers/id deletes that customer
 
 Post request to /users/register ,in body write name and password registers the user.Password is not stored in plain text and encrypted using bcrypt.
