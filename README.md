@@ -1,7 +1,7 @@
 # Mock-Restful-API
 This is restful API built using restify module present in Node. Functionalities include add customer,delete customer,update,create account,Login with Authentication done using JWT web tokens.Any Front end developer can use it.
 
-You just have to make (GET,POST,PUT,DEL)requests via Postman or some other app.You can also protect routes as your wish i.e the can be accessed if user is authenticated.
+You just have to make (GET,POST,PUT,DEL) requests via your app.You can also protect routes as your wish i.e the can be accessed if user is authenticated.
 
 End points include
 
